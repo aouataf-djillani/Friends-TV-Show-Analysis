@@ -203,7 +203,7 @@ LIMIT 15;
  Peoples tend to prefer Episodes that are:
  - Produced by Kevin Bright, James Burrow, Peter Benerz and Michael Lembeck ;
  - Feature the whole gang ( episodes featuring Joey and Phoebe were the least favourite which is strange) ;
- - Sentiments do impact the rating as sad episodes are the least favoured for instance.   
+ - have peaceful or powerful scenes (based on the percentage distribution of the box plot).However there are no clear indications on what emotions determine a poor rating.
  
  
 
