@@ -30,7 +30,7 @@ Our data-set contains information  (236 records) about Friends episodes, includi
 | season  | episode | scene | utterance | emotion | 
 |--|--|--|--|--|
 ## Sample  SQL Queries 
-All queries [here.]() 
+All queries [here.](https://github.com/aouataf-djillani/Friends-TV-Show-Analysis/blob/master/source/Exploring.sql) 
 
 **EDA :**
  - Remove space from column name 
