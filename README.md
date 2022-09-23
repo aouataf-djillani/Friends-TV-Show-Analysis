@@ -1,6 +1,6 @@
 # Analysing Data From the Friends TV Show      
 
-This analysis of the the Friends TV Show dataset provides some insights on the rating trends in all 236 episodes. The goal is to find answers on what really made a good Friends episode. Being a big fan of the show myself, I had my own preferences in terms of episodes. It was interesting to dive deep into the data and discover whether people shared the same preferences and whether there are hidden trends behind those choices.
+This analysis of the the Friends TV Show dataset provides some insights on the rating trends in all 236 episodes. The goal is to find answers on what really made a good Friends episode. Being a big fan of the show myself, I had my own preferences in terms of episodes. It was interesting to dive deep into the data and discover whether people shared the same preferences and whether there are any hidden trends behind those choices.
 
 ## Insights 
 
