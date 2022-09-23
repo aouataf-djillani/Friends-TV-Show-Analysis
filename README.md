@@ -5,7 +5,7 @@ This analysis of the the Friends TV Show dataset provides some insights on the r
 ## Insights 
 
  In order to feed our curiosity about what really effects the ratings in the show. We tried to provide some answers to different questions : 
- - What are the top rated episodes of all? Top episodes per season   
+ - What are the top rated episodes of all? Top episodes per season?   
  - Who were the most successful directors in the show?  
  - Which seasons had the most votes and best ratings?
  - Does the presence of certain emotions or a certain character influence the ratings? 
@@ -23,7 +23,7 @@ Our data-set contains information  (236 records) about Friends episodes, includi
  1. The friends dataset from [Kaggle](https://www.kaggle.com/datasets/rezaghari/friends-series-dataset?select=friends_episodes_v3.csv) which contains information about episodes : 
 
 | Year_of_production | Season  | Episode_number | Episode_title | Duration | Summary | Director | Stars | Votes | 
-|--|--|--|--|--|--|--|--|--|--|--|--|
+|--|--|--|--|--|--|--|--|--|
 
  2. The Friends emotion dataset which provides emotions with every dialogue for each episode. This dataset was from the [Tidy Tuesday Challenge on Github](https://github.com/rfordatascience/tidytuesday/blob/master/data/2020/2020-09-08/readme.md )
 
@@ -196,6 +196,8 @@ ORDER BY COUNT(Title) DESC
 LIMIT 15;
 ```
 ## Results 
+![Dashboard (2)](https://user-images.githubusercontent.com/54501663/191886379-6757d372-1620-419b-aa10-f5665a30b5ef.png)
+
  The result of our analysis shows that there is positive correlation between the number of votes and ratings. 
  
  Peoples tend to prefer Episodes that are:
