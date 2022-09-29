@@ -164,37 +164,7 @@ WHERE
     Summary LIKE '%the gang%'
 ;
 ```
- - In-demand programming languages in this field 
-```sql
-SELECT 
-    CASE
-        WHEN Requirements LIKE '%Python%' THEN 'Python'
-        WHEN Requirements LIKE '% R %' THEN 'R'
-        WHEN Requirements LIKE '%sql%' THEN 'sql'
-        WHEN Requirements LIKE '%NoSql%' THEN 'NoSql'
-        ELSE 'Not specified'
-    END AS programming_tools,
-    COUNT(*)
-FROM
-    job_postings
-GROUP BY (CASE
-    WHEN Requirements LIKE '%Python%' THEN 'Python'
-    WHEN Requirements LIKE '% R %' THEN 'R'
-    WHEN Requirements LIKE '%sql%' THEN 'sql'
-    WHEN Requirements LIKE '%NoSql%' THEN 'NoSql'
-    ELSE 'Not specified'
-END);
-```
- - Most popular job titles on LinkedIn 
-```sql
-SELECT 
-    Title, COUNT(Title)
-FROM
-    job_postings
-GROUP BY title
-ORDER BY COUNT(Title) DESC
-LIMIT 15;
-```
+
 ## Results 
 ![Dashboard (2)](https://user-images.githubusercontent.com/54501663/191886379-6757d372-1620-419b-aa10-f5665a30b5ef.png)
 
