@@ -45,14 +45,6 @@ FROM
     Friends.Infos1
 GROUP BY Episode_Title
 HAVING COUNT(Episode_Title) > 1;
-```sql
-SELECT 
-    Industry, COUNT(Industry) AS num_postings
-FROM
-    job_postings
-GROUP BY Industry
-ORDER BY num_postings DESC
-LIMIT 15;  
 ```
  - Rename duplicate episodes ( double episodes) 
 ```sql
