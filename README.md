@@ -159,7 +159,11 @@ WHERE
 ```
 
 ## Results 
-![Dashboard (2)](https://user-images.githubusercontent.com/54501663/191886379-6757d372-1620-419b-aa10-f5665a30b5ef.png)
+
+![Dashboard part 1](https://user-images.githubusercontent.com/54501663/226570765-48669b30-45e8-47a6-9984-dd2bd875c9cb.png)
+
+![dashboard part2](https://user-images.githubusercontent.com/54501663/226571235-1d72cd4d-d150-44f2-8645-a25fed08ba33.png)
+
 
  The result of our analysis shows that there is positive correlation between the number of votes and ratings. 
  
