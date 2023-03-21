@@ -37,6 +37,7 @@ All queries [here.](https://github.com/aouataf-djillani/Friends-TV-Show-Analysis
 ```sql
 alter table Friends.Infos1
 rename column `Episode Number` to Episode_number; 
+```
  - Find duplicates 
 ```sql
 SELECT 
